@@ -278,6 +278,22 @@ form input:focus,textarea:focus{
   outline: none;
   border: 0.3px solid #00ffff;
  }
+    .labels{
+   display: flex;
+   flex: row;
+   justify-content: space-between;
+   width: 100%;
+ }
+ .cbox {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 50%;
+ }
+ input[type=checkbox]
+ {
+   width: 7%;
+ }
 .formbutton
  { 
   background-color: white;
@@ -575,6 +591,22 @@ form input,textarea{
 form input:focus,textarea:focus{
   outline: none;
   border: 0.3px solid #00ffff;
+ }
+    .labels{
+   display: flex;
+   flex: row;
+   justify-content: space-between;
+   width: 100%;
+ }
+ .cbox {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 50%;
+ }
+ input[type=checkbox]
+ {
+   width: 7%;
  }
 .formbutton
  { 
