@@ -9,18 +9,76 @@
 <body>
    <form name="inscription" netlify>
     <h1>Registration</h1>
+    <div class="labels">
     <label for="" >Full Name</label>
-    <input type="text" name="fullname" id="name"required class="input">
+    <label for="">الاسم الكامل</label>
+    </div>
+    <input type="text" required class="input">
+    <div class="labels">
     <label for="">Email</label>
+    <label for="">الايميل</label>
+    </div>
     <input type="email" name="email" id="email" required class="input">
+    <div class="labels">
     <label for="">Phone number</label>
+    <label for="">رقم الهاتف</label>
+    </div>
     <input type="number" name="number" id="number" required class="input">
-    <label for="" name="major" id="major">major (speciality) with the year</label>
+    <div class="labels">
+    <label for="">major (speciality) with the year</label>
+    <label for="">التخصص مع ذكر السنة</label>
+    </div>
     <input type="text">
+    <div class="labels">
+        <label for="">skills</label>
+        <label for="">المهارات</label>
+    </div>
+    <div class="cbox">
+         <label for="">web development</label>
+         <input type="checkbox" name="skill 1:" id="" value="web development">
+    </div>
+    <div class="cbox">
+        <label for="">mobile development</label>
+        <input type="checkbox" name="skill 2:" id="" value="mobile development">
+    </div>
+    <div class="cbox">
+        <label for="">cyber security</label>
+        <input type="checkbox" name="skill 3:" id="" value="cyber security">
+    </div>
+    <div class="cbox">
+        <label for="">video editing</label>
+        <input type="checkbox" name="skill 4:" id="" value="video editing">
+    </div>
+    <div class="cbox">
+        <label for="">graphic design</label>
+        <input type="checkbox" name="skill 5:" id="" value="graphic design">
+   </div>
+   <div class="cbox">
+       <label for="">Entrepreneurship</label>
+       <input type="checkbox" name="skill 6:" id="" value="Entrepreneurship">
+   </div>
+   <div class="cbox">
+       <label for="">i have no skills </label>
+       <input type="checkbox" name="nothing" id="" value="0">
+   </div>
+   <div class="cbox">
+       <label for="">other</label>
+       <input type="text" name="other skill : " id="">
+   </div>
+   <div class="labels">
+    <label for="">your Facebook link</label>
+    <label for="">رابط حسابك على الفايسبوك</label>
+    </div>
+    <input type="url" name="facebook link : ">
+    <div class="labels">
     <label for="">Why do you want to join CDEC?    </label>
-    <textarea name="opinion" id="CDEC" cols="10" rows="5" required class="input"></textarea>
+    <label for="">ما حافزك للانظمام لفريقنا ؟</label>
+    </div>
+
+    <textarea name="CDEC" id="CDEC" cols="10" rows="5" required class="input"></textarea>
     <button type="submit" id="btn" class="formbutton">submit</button>
     <a href="index.html"><button type="button"  class="formbutton">Return</button></a>
+  
   
    </form> 
 </body>
