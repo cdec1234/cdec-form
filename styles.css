@@ -128,8 +128,8 @@ nav img{
    text-align: center;
    flex-direction: column;
    margin: 3% auto;
-   width: 42%;
-   height: 10rem;
+   max-width: 42%;
+   height: 13rem;
    border: 0.7px solid #00ffff;
    border-radius: 25px;
    transition-duration: 0.6s;
@@ -164,10 +164,10 @@ nav img{
 
 }
 #gallery-container > .gallery >img {
-  width: 30%;
+  max-width: 20%;
   display: inline-block;
   margin: 5px;
-  height: 35rem;
+  height: 20rem;
 }
 .scroll-right {
   background-color: white;
@@ -442,7 +442,7 @@ nav img{
    text-align: center;
    flex-direction: column;
    margin: 3% auto;
-   width: 76%;
+   max-width: 76%;
    height: 10rem;
    border: 0.7px solid #00ffff;
    border-radius: 25px;
@@ -478,7 +478,7 @@ nav img{
 
 }
 #gallery-container > .gallery >img {
-  width: 87%;
+  max-width: 87%;
   display: inline-block;
   margin: 5px;
   height: 19rem;
