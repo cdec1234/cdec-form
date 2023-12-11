@@ -619,7 +619,7 @@ form input:focus,textarea:focus{
    font-family: 'Dhurjati', sans-serif;
    transition-property:background-color,color, border-color ;
    font-size: 25px;
-
+   margin: 2px;
  }
  .formbutton:hover{
   background-color: #000000;
