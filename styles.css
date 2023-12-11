@@ -543,7 +543,7 @@ align-items: center;
 .contact {
   color: white;
   background-color: #000000;
-  width: 13%;
+  max-width: 50%;
   height: 3rem;
   font-size: 7px;
   border-radius: 25px;
