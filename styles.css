@@ -137,9 +137,9 @@ nav img{
 
 }
 .card:hover{ 
-  width:50% ;
-  height: 12rem;
-  font-size: 20px;
+  max-width:55% ;
+  height: 15rem;
+  font-size: 26px;
   cursor: pointer;
 
 }
