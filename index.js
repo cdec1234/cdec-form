@@ -3,8 +3,8 @@ const galleryContainer = document.getElementById("gallery-container");
 
 const textGallery=document.getElementById("text-gallery");
 
-const scrollSpeed = 0.5; 
-const scrollDelay = 20;
+const scrollSpeed = 0.7; 
+const scrollDelay = 15;
 let scrollDirection = 1;
 
 function scrollGallery() {
