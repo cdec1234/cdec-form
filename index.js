@@ -39,6 +39,7 @@ var instagarm =document.getElementById('instagram');
 var linkedin =document.getElementById('linkedin');
 var tiktok =document.getElementById('tiktok');
 var youtube =document.getElementById('youtube');
+var website =document.getElementById('website');
 var contact=document.querySelector('.contact')
 
 facebook.addEventListener('mouseover',()=>{
@@ -59,7 +60,10 @@ tiktok.addEventListener('mouseover',()=>{
     tiktok.style.background = "linear-gradient(to bottom right, 	#ff0050,#000000,#00f2ea)";
 
 });
+website.addEventListener('mouseover',()=>{
+    website.style.background = "linear-gradient(to bottom right, #161A30,#31304D,#B6BBC4)";
 
+});
 
 facebook.addEventListener("mouseout",()=>{
     facebook.style.background="black";
@@ -74,6 +78,9 @@ linkedin.addEventListener("mouseout",()=>{
 
 tiktok.addEventListener("mouseout",()=>{
     tiktok.style.background="black";
+})
+website.addEventListener("mouseout",()=>{
+    website.style.background="black";
 })
 
 
